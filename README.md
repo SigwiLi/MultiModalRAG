@@ -1,2 +1,7 @@
 # MultiModalRAG
-MarketMindAI is focused on a housing-domain Llama 3 fine-tuning + RAG (Retrieval-Augmented Generation) pipeline, including assets to fine-tune a Llama 3.2 1B Instruct model with LoRA, run a RAG pipeline over housing data (e.g., Zillow-derived content), and test/deploy the resulting fine-tuned model locally.
+This repo is centered on fine-tuning a Llama 3.8b instruction model using LoRA and experimenting with a housing-focused RAG (retrieval-augmented generation) pipeline. It includes:
+
+Notebooks for fine-tuning + local experiments + RAG prototyping
+JSONL datasets used for fine-tuning and retrieval
+Saved model artifacts (LoRA checkpoints) and a merged model directory suitable for inference
+
